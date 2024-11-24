@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Classificador de nível de Herói</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main class="container">
+        <h1></h1>
+        <p></p>
+        <div class="hero-level">
+            <input type="number" min="0" max="20000">
+            <button onclick="verificarNivel()">Verificar</button>
+            <button onclick="limparNivel()" id="limpar-nivel" disabled>Limpar</button>
+        </div>
+    </main>
+    
+    <script defer src="scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    color: #ecefe5;
+    height: 100vh;
+    font-family: "Nova Cut", system-ui;
+    background-image: linear-gradient(#89A8B2 ,#B3C8CF, #89A8B2);
+}
+
+.container {
+    background-color: #6691aa;
+    width: 70%;
+    height: 80vh;
+    padding: 2em;
+    margin: 3em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5em;
+    border-radius: 5em;
+    border: 3px dashed #0f6ccf96;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.hero-level {
+    display: flex;
+    column-gap: 1em;
+}
+
+input {
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    border: none;
+    width: 200px;
+}
+
+button {
+    font-size: 1em;
+    background-color: #3d7d9b;
+    border-radius: 1em;
+    border: 2px solid #124759;
+    padding: 0.5em 1em;
+    color: #F2F4F3;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #124759;
+
+}
